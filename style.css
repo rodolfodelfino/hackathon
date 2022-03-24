@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap');
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EA8628;
+    height: 100px;
+    align-items: center;
+    
+   
+}
+
+header{
+    padding-bottom: 2px;
+}
+
+.cabecalho h1{
+    color: white;  
+      
+    
+}
+
+.cabecalho li{
+    
+    list-style: none;
+    text-decoration: none;
+    
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    size: 150%;
+}
+
+.cabecalho li a:hover{
+    background-color: aliceblue;
+    border-radius: 2px;
+    color: #EA8628;
+    
+
+}
+
+.perfil-capa{
+    display: flex;
+    width: 100%;
+    max-height: 300px;
+    justify-content: center;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.perfil-capa h1{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.capa{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+   
+    
+}
+
+.capa img{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+   
+    
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    height: 100%;
+    width: 20%;
+   
+    
+}
+
+    .perfil img{
+       width: 280px; 
+        height: 280px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius:50% ;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+   
+
+    .container-Esq{
+        margin-top: 10px;
+        align-items: center;
+        width: 25%;
+        border-right: 1px solid black;
+      
+      
+    }
+
+    .container-Cen{
+        width: 50%;
+        margin: 20px;
+        border-right: 1px solid black;
+    }
+
+    .container-Dir{
+        width: 25%;
+        
+    }
+
+    .feed{
+        display: flex;
+        margin: 20px;
+    }
+
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .container-dir h1{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        text-align: center;
+    }
+
+    #postagem{
+        width: 90%;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+    .btn {
+        display: block;
+        flex-direction: row;
+       margin-right: 60px;       
+        float: right;
+        color: white;
+        background-color: #EA8628;
+        border: none;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        filter: brightness(1.1);
+      }
+
+      .icones{
+          display: block;
+          max-height: 5px;
+          
+        }
+
+        .icones img{
+            padding-left: 10px;
+            max-width: 30px;
+        }
+
+        .info-capa{
+            
+        margin-bottom: 50px;
+         display: block;
+         padding-top: 30px;
+         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+        }
+
+        .info-capa h2{
+
+            
+            color: rgb(112, 106, 97);
+            padding: 10px;
+        }
+
+        .fotos-capa{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .fotos-capa img   {
+        padding: 10px;
+        width: 120px;
+        height: 120px;
+        }
+
+        .postagem-feed{
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            max-width: 100%;
+        }
+
+        .postagem-feed img{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        max-height: 100%;
+        }
+
+        .postagem-feed h2 {
+            padding-left: 50px;
+        }
+
+        .postagem-feed p{
+            max-width: 100%;
+            padding-left: 50px;
+        }
+
+        .perfil-mini{
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            width: 40px; 
+             height: 40px;
+            border-radius:50% ;
+            padding: 0px;
+            margin: 0px;
+         }
+
+         .cabecalho-postagem{
+             display: flex;
+             flex-direction: row;
+             float: left;
+             align-items: center;
+             justify-content: center;
+             padding-left: 20px;
+             margin-bottom: 40px;
+         }
+
+         .cabecalho-postagem h3{
+             margin: 0px;
+             padding-left: 20px;
+             text-align: left;
+         }
