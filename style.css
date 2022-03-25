@@ -123,6 +123,7 @@ a{
         margin: 20px;
         border-right: 1px solid #d0d7de;
         box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+        overflow-y: scroll;
 
     }
 
@@ -136,7 +137,7 @@ a{
     .feed{
         display: flex;
         margin: 50px;
-    }
+max-height: 1950px;    }
 
     iframe{
         width: 100%;
