@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #EA8628;
-    height: 100px;
+    height: 70px;
     align-items: center;
     
    
@@ -65,7 +65,7 @@ a{
 .capa{
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 77.5%;
     height: 300px;
    
     
@@ -86,14 +86,15 @@ a{
     justify-content: center;
     padding-left: 50px;
     height: 100%;
-    width: 20%;
+    width: 22.5%;
    
     
 }
 
     .perfil img{
-       width: 280px; 
-        height: 280px;
+        margin-top: 30px;
+       width: 180px; 
+        height: 180px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -105,33 +106,46 @@ a{
    
 
     .container-Esq{
-        margin-top: 10px;
+
+        margin-top: 20px;
         align-items: center;
         width: 25%;
-        border-right: 1px solid black;
+        border-right: 1px solid rgb(204, 198, 198);
       
       
     }
 
     .container-Cen{
+        margin-top: 20px;
         width: 50%;
         margin: 20px;
-        border-right: 1px solid black;
+        border-right: 1px solid rgb(204, 198, 198);
+        max-height: 1200px;
+        overflow-y: scroll;
+        
     }
 
+
     .container-Dir{
+        margin-top: 20px;
         width: 25%;
+        max-height: 1200px;
+        overflow-y: scroll;
+        
         
     }
 
     .feed{
         display: flex;
         margin: 20px;
+        
     }
 
     iframe{
+        padding-top: 20px;
         width: 100%;
-        height: 100%;
+        height: 95%;
+        max-height: 1200px;
     }
     
     .container-dir h1{
@@ -193,15 +207,20 @@ a{
         }
 
         .fotos-capa{
+            margin-top: 20px;
+            margin-bottom: 20px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+            
         }
 
         .fotos-capa img   {
         padding: 10px;
         width: 120px;
         height: 120px;
+        border-radius: 15%;
         }
 
         .postagem-feed{
@@ -240,7 +259,7 @@ a{
             margin: 0px;
          }
 
-         .cabecalho-postagem{
+            .cabecalho-postagem{
              display: flex;
              flex-direction: row;
              float: left;
