@@ -276,6 +276,8 @@ a{
          }
 
  .div-principal-cadastro{
+     padding-top: 100px;
+     margin-top: 50px;
     display: flex;
     flex-direction: row;
     margin: 20px;
