@@ -369,3 +369,13 @@ a{
 .racao{
     padding-bottom: 50px;
 }
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: #EA8628;
+    color: #EA8628;
+    border-radius: 50%;
+    
+    margin-bottom: 50px;
+}
