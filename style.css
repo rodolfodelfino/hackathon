@@ -278,7 +278,7 @@ a{
  .div-principal-cadastro{
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    margin: 20px;
     flex-wrap: wrap;
     justify-content: center;
  }        
@@ -312,3 +312,60 @@ a{
  a{
      background-color: #EA8628;
  }
+
+.sexo{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     
+     
+ }
+
+.sexo input{
+    margin-left: 15px;
+}
+
+.castrado{
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+}
+
+.castrado input{
+
+    margin-left: 15px;
+    
+}
+.btn{
+    background-color: #EA8628;
+    margin-bottom: 20px;
+}
+
+.div-form-cadastro2{
+    display: grid;
+    place-items: center;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.div-form-cadastro2 input{
+    margin-top: 10px;
+}
+
+.div-form-cadastro2 select{
+    margin-top: 10px;
+}
+
+.vacina{
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
+.racao{
+    padding-bottom: 50px;
+}
